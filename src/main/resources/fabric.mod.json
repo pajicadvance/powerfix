@@ -14,7 +14,7 @@
     "powerfix.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": "*",
     "minecraft": [
       "1.21", "1.21.1"
     ]
