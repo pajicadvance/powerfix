@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "powerfix",
+  "version": "${version}",
+  "name": "Power damage fix",
+  "description": "Fix MC-277617",
+  "authors": ["pajic"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/powerfix/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "powerfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": [
+      "1.21", "1.21.1", "1.21.2", "1.21.3"
+    ]
+  }
+}
